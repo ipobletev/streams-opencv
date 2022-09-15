@@ -1,0 +1,12 @@
+__pycache__
+test.py
+outTemp/*
+temp/*
+!*.gitkeep
+.vscode
+.env
+*.log
+sensors.txt
+rec
+yolov3.weights
+streams.txt
