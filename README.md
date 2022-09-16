@@ -26,7 +26,7 @@ Single capture for all cameras and save the capture image in /rec
 SENSORSTXT_PATH 
 ```
 ### savevideo_tofile.py
-Save the capture streams in a video file.
+Save the capture streams in a video file in /temp.
 ```
 TIME_TO_SEND
 SENSORSTXT_PATH 
