@@ -21,11 +21,12 @@ python3 program
 ## Configure and macros for .env file
 
 ### singlecapture.py
-Single capture for all cameras
+Single capture for all cameras and save the capture image in /rec
 ```
 SENSORSTXT_PATH 
 ```
 ### savevideo_tofile.py
+Save the capture streams in a video file.
 ```
 TIME_TO_SEND
 SENSORSTXT_PATH 
@@ -34,6 +35,7 @@ ENABLE_GUI
 SAVE_VIDEO
 ```
 ### test_stream.py
+Capture frame from stream source
 ```
 ENABLE_GU
 SENSORSTXT_PATH
