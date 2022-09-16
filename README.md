@@ -1,19 +1,27 @@
 # Streams opencv
 
 ## Run Program
-Make a .env file in main folder to configure. Add macros.
 
-program:
+Programs:
 - singlecapture.py
 - savevideo_tofile.py
 - test_stream.py
 
+-Make a .env file in main folder to configure. Add macros. \
+-Add streams.txt with all streams sensors
+```
+device_name1,url_stream1
+device_name2,url_stream2
+```
+
+Run:
 ```
 python3 program
 ```
 ## Configure and macros for .env file
 
 ### singlecapture.py
+Single capture for all cameras
 ```
 SENSORSTXT_PATH 
 ```
