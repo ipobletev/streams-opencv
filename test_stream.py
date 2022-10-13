@@ -8,6 +8,8 @@ load_dotenv()
 ENABLE_GUI = (os.getenv('ENABLE_GUI', 'False') == 'True')
 SENSORSTXT_PATH = os.getenv('SENSORSTXT_PATH', 'streams.txt')
 
+os.environ["OPENCV_FFMPEG_CAPTURE_OPTIONS"] = "rtsp_transport;0"
+
 STREAM_LIST = []
 NAME_STREAM_LIST = []
 
